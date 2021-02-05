@@ -193,10 +193,10 @@ def update_graph(select_year, radio_items1, radio_items):
                 'yanchor': 'top'},
              titlefont={
                         'color': 'white',
-                        'size': 15},
+                        'size': 12},
 
              hovermode='closest',
-             margin = dict(t = 40),
+             margin = dict(t = 40, r = 0),
 
              xaxis=dict(title='<b></b>',
                         color = 'orange',
@@ -285,10 +285,10 @@ def update_graph(select_year, radio_items1, radio_items):
                 'yanchor': 'top'},
              titlefont={
                         'color': 'white',
-                        'size': 15},
+                        'size': 12},
 
              hovermode='closest',
-             margin = dict(t = 40),
+             margin = dict(t = 40, r = 0),
 
              xaxis=dict(title='<b></b>',
                         color = 'orange',
@@ -624,10 +624,10 @@ def update_graph(select_year, radio_items2, radio_items):
                 'yanchor': 'top'},
              titlefont={
                         'color': 'white',
-                        'size': 15},
+                        'size': 12},
 
              hovermode='closest',
-             margin = dict(l = 130, t = 40),
+             margin = dict(l = 130, t = 40, r = 0),
 
              xaxis=dict(title='<b></b>',
                         color = 'orange',
@@ -717,10 +717,10 @@ def update_graph(select_year, radio_items2, radio_items):
                 'yanchor': 'top'},
              titlefont={
                         'color': 'white',
-                        'size': 15},
+                        'size': 12},
 
              hovermode='closest',
-             margin = dict(l = 130, t = 40),
+             margin = dict(l = 130, t = 40, r = 0),
              xaxis=dict(title='<b></b>',
                         color = 'orange',
                         showline = True,
@@ -817,7 +817,7 @@ def update_graph(select_year, radio_items):
             titlefont = {
                 'color': 'white',
                 'size': 15},
-            margin = dict(t = 40),
+            margin = dict(t = 40, r = 0, l = 0),
 
             hovermode = 'closest',
 
